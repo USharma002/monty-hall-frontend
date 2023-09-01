@@ -89,8 +89,8 @@ function App() {
           title={c} 
           object={c!==winningCard.current ? 'goat' : 'car'} 
           path={"./pictures/" + (c!==winningCard.current ? 'goat.jpg' : 'car.jpg')}
-          heading={c!==winningCard.current ? 'You goat it!' : 'Car as pet Carpet?'}
-          desc={c!==winningCard.current ? 'goat form the depths of hell. It has killed many, maybe you will survive?' : 'A toy car. Nothing special.'} 
+          heading={c!==winningCard.current ? 'Goat' : 'Car'}
+          desc={c!==winningCard.current ? 'You won a Goat !' : 'You won a car !'} 
           selected={selectedOption === c} 
           setSelectedOption={setSelectedOption} 
           flipped={flipped} 
